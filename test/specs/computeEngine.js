@@ -51,7 +51,7 @@ describe('Fill out the Compute Engine form', () => {
         const GPUtype = 'NVIDIA_TESLA_P100'
         const num = '1';
         const center = 'Frankfurt (europe-west3)';
-        const year1 = '1 Year';
+        const year = '1 Year';
 
         const region = 'Region: Frankfurt';
         const email = 'sejax15424@tingn.com';

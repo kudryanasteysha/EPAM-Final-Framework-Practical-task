@@ -71,7 +71,7 @@ class CalculatorPage extends Page {
         await $('//md-select[@placeholder = "Committed usage"]').click();
         await browser.pause(500); // need for stability
         await $('//*[@id="select_option_129"]').click();
-        //await $(`//md-select[@placeholder="Committed usage"]//div[@class="md-select-menu-container"]//div[contains(.,"${year1}")]`).click();
+        //await $('//md-select[@placeholder="Committed usage"]//md-option[@ng-value="1" and contains(.,"1 Year")]').click();
     }
 
     async clickAddToEstimateBtn() {
