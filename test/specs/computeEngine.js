@@ -42,7 +42,7 @@ describe('Fill out the Compute Engine form', () => {
         expect(await CalculatorPage.getTextFromOperatingSystem()).toEqual('Operating System / Software: Free'); 
     })
 
-    it.only('should add to estimate and send an email (Hardcore)', async () => {
+    it('should add to estimate and send an email (Hardcore)', async () => {
         const series = 'n1';
         const instanceType = '30GB';
         const vm_class = 'regular'; 
