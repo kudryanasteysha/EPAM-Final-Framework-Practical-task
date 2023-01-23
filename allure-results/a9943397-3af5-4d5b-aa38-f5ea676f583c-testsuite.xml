@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674477145548' stop='1674477175007'>
+    <name>Fill out the Compute Engine form</name>
+    <title>Fill out the Compute Engine form</title>
+    <test-cases>
+        <test-case start='1674477145548' status='passed' stop='1674477162053'>
+            <name>should add to estimate (Hurt Me Plenty)</name>
+            <title>should add to estimate (Hurt Me Plenty)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1674477162053' status='passed' stop='1674477175007'>
+            <name>should add to estimate and send an email (Hardcore)</name>
+            <title>should add to estimate and send an email (Hardcore)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
